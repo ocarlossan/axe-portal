@@ -47,7 +47,8 @@
   }
 
   /* ===== brand ===== */
-  .brand{padding:24px 20px 18px}
+  .brand{padding:26px 20px 16px}
+  .logo{width:182px;display:block;margin:0 auto}
   .wordmark{font-weight:800;font-size:19px;letter-spacing:0.02em;color:var(--txt)}
   .wordmark span{color:var(--gold2)}
   .wordmark-sub{font-size:9.5px;color:var(--txt3);letter-spacing:0.30em;text-transform:uppercase;margin-top:2px}
@@ -302,7 +303,25 @@
   <!-- ============ SIDEBAR ============ -->
   <aside class="sidebar" id="sidebar">
     <div class="brand">
-      <div class="wordmark">AXE <span>PARTICIPAÇÕES</span></div>
+      <svg class="logo" viewBox="0 0 560 224" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Axe Participações">
+        <defs>
+          <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFFFFF"/>
+            <stop offset="0.42" stop-color="#E9EBEF"/>
+            <stop offset="0.58" stop-color="#C3C8D1"/>
+            <stop offset="1" stop-color="#9299A5"/>
+          </linearGradient>
+        </defs>
+        <g fill="url(#silver)">
+          <path fill-rule="evenodd" d="M83 40 L127 40 L196 168 L152 168 L138 140 L72 140 L58 168 L14 168 Z M105 74 L124 112 L86 112 Z"/>
+          <path d="M212 40 L260 40 L398 168 L350 168 Z"/>
+          <path d="M350 40 L398 40 L260 168 L212 168 Z"/>
+          <path d="M414 40 L546 40 L536 74 L452 74 L452 87 L530 87 L521 120 L452 120 L452 134 L540 134 L530 168 L414 168 Z"/>
+        </g>
+        <text x="280" y="212" text-anchor="middle" fill="#C6CBD3"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,sans-serif"
+          font-size="31" font-weight="500" letter-spacing="11">PARTICIPAÇÕES</text>
+      </svg>
     </div>
     <nav class="nav">
       <div class="nav-label">Minha conta</div>
