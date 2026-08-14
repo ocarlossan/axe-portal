@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /ap-9f3c7e/
